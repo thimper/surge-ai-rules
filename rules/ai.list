@@ -1,0 +1,47 @@
+# AI service rules for Surge RULE-SET. No policy or credentials.
+# ---- Anthropic / Claude（含 Claude Code 登录用的 console 域）----
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ---- OpenAI / ChatGPT ----
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,sora.com
+
+# ---- Google AI（Gemini / AI Studio / NotebookLM）----
+# 只点名 AI 相关的子域，不动 Google 搜索等其他服务，避免误伤。
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN,labs.google
+DOMAIN,gemini.gstatic.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# ---- xAI / Grok ----
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# ---- 其他常用 AI 服务 ----
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,muse.ai
