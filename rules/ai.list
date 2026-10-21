@@ -24,6 +24,8 @@ DOMAIN,gemini.gstatic.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,webchannel-robinfrontend-pa.googleapis.com
 
 # ---- xAI / Grok ----
 DOMAIN-SUFFIX,x.ai
