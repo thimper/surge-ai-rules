@@ -14,7 +14,8 @@ DOMAIN-SUFFIX,sora.com
 
 # ---- Google AI（Gemini / AI Studio / NotebookLM）----
 # 只点名 AI 相关的子域，不动 Google 搜索等其他服务，避免误伤。
-DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN,aistudio.google.com
 DOMAIN,makersuite.google.com
 DOMAIN,notebooklm.google.com
