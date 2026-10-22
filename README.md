@@ -16,9 +16,9 @@ RULE-SET,https://raw.githubusercontent.com/thimper/surge-ai-rules/main/rules/ai.
 
 ## 覆盖范围
 
-Anthropic / Claude、OpenAI / ChatGPT、Google AI、xAI / Grok，以及 Perplexity、Poe、Hugging Face、Cursor、Copilot、Midjourney、Runway、ElevenLabs、Mistral、Groq、Together、Replicate、Muse 等。
+Anthropic / Claude、OpenAI / ChatGPT、Google AI、xAI / Grok、Meta AI / Muse，以及 Perplexity、Poe、Hugging Face、Cursor、Copilot、Midjourney、Runway、ElevenLabs、Mistral、Groq、Together、Replicate 等。
 
-Muse 使用 `DOMAIN-SUFFIX,muse.ai`，包含其认证等子域名。Google AI 只列相关子域名，普通 Google 搜索继续使用原有分流。
+Meta AI 和 Muse 分别使用 `DOMAIN-SUFFIX,meta.ai`、`DOMAIN-SUFFIX,muse.ai`，覆盖各自全部子域名；另单独加入共享登录主机 `auth.meta.com`，不扩大到整个 `meta.com`。Google AI 只列相关子域名，普通 Google 搜索继续使用原有分流。
 
 ## 如何维护
 

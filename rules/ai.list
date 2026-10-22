@@ -31,6 +31,11 @@ DOMAIN,webchannel-robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 
+# ---- Meta AI / Muse（含 Meta 账号登录）----
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,muse.ai
+DOMAIN,auth.meta.com
+
 # ---- 其他常用 AI 服务 ----
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,poe.com
@@ -47,4 +52,3 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,together.ai
 DOMAIN-SUFFIX,replicate.com
-DOMAIN-SUFFIX,muse.ai
